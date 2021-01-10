@@ -4,6 +4,7 @@
     <TargetFramework>net5.0</TargetFramework>
     <UserSecretsId>dotnet-GoXLR_TouchPortal_Plugin-D39C93F5-59EF-4347-9CBF-7E5CAE01A510</UserSecretsId>
     <RootNamespace>GoXLR_TouchPortal_Plugin</RootNamespace>
+    <OutputType>Exe</OutputType>
   </PropertyGroup>
 
   <ItemGroup>

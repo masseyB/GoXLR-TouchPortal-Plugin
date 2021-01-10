@@ -31,7 +31,7 @@ namespace GoXLR_TouchPortal_Plugin
             _logger = logger;
             _messageProcessor = messageProcessor ?? throw new ArgumentNullException(nameof(messageProcessor));
 #if !SKIP_WS
-            _server = new WatsonWsServer("127.0.0.1", 6805, false);
+            _server = new WatsonWsServer("*", 6805, false);
 #endif
         }
 

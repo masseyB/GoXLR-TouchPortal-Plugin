@@ -7,12 +7,12 @@
     "colorDark": "#59B1B6",
     "colorLight": "#59B1B6"
   },
-  "plugin_start_cmd": "\"%TP_PLUGIN_FOLDER%GoXLR\\GoXLR.Worker.exe\"",
+  "plugin_start_cmd": "/usr/local/share/dotnet/dotnet %TP_PLUGIN_FOLDER%GoXLR/GoXLR.Worker.dll",
   "categories": [
     {
       "id": "TPGoXLRCommands",
       "name": "GoXLR",
-      "imagepath": "%TP_PLUGIN_FOLDER%GoXLR\\test.png",
+      "imagepath": "%TP_PLUGIN_FOLDER%GoXLR/test.png",
       "actions": [
         {
           "id": "tpgoxlr_route_change",
